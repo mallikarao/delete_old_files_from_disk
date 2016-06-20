@@ -1,0 +1,279 @@
+python ../delete_old_files.py 
+45 48 5
+45 49 5
+45 46 5
+45 47 5
+45 44 5
+45 45 5
+45 42 5
+45 43 5
+45 40 5
+45 41 5
+45 48 5
+45 49 5
+45 46 5
+45 47 5
+45 44 5
+45 45 5
+45 42 5
+45 43 5
+45 40 5
+45 41 5
+45 48 5
+45 49 5
+45 46 5
+45 47 5
+45 44 5
+45 45 5
+45 42 5
+45 43 5
+45 40 5
+45 41 5
+45 48 5
+45 49 5
+45 46 5
+45 47 5
+45 44 5
+45 45 5
+45 42 5
+45 43 5
+45 40 5
+45 41 5
+45 48 1
+45 49 1
+45 46 1
+45 47 1
+45 44 1
+45 45 1
+45 48 1
+45 49 1
+45 46 1
+45 47 1
+45 44 1
+45 45 1
+45 48 1
+45 49 1
+45 46 1
+45 47 1
+45 44 1
+45 45 1
+45 48 1
+45 49 1
+45 46 1
+45 47 1
+45 44 1
+45 45 1
+45 48 3
+45 49 3
+45 46 3
+45 47 3
+45 44 3
+45 45 3
+45 42 3
+45 43 3
+45 48 3
+45 49 3
+45 46 3
+45 47 3
+45 44 3
+45 45 3
+45 42 3
+45 43 3
+45 48 3
+45 49 3
+45 46 3
+45 47 3
+45 44 3
+45 45 3
+45 42 3
+45 43 3
+45 48 3
+45 49 3
+45 46 3
+45 47 3
+45 44 3
+45 45 3
+45 42 3
+45 43 3
+45 48 10
+45 49 10
+45 46 10
+45 47 10
+45 44 10
+45 45 10
+45 42 10
+45 43 10
+45 40 10
+45 41 10
+45 48 10
+45 49 10
+45 46 10
+45 47 10
+45 44 10
+45 45 10
+45 42 10
+45 43 10
+45 40 10
+45 41 10
+45 48 10
+45 49 10
+45 46 10
+45 47 10
+45 44 10
+45 45 10
+45 42 10
+45 43 10
+45 40 10
+45 41 10
+45 48 10
+45 49 10
+45 46 10
+45 47 10
+45 44 10
+45 45 10
+45 42 10
+45 43 10
+45 40 10
+45 41 10
+tree:
+{'.': {'c1': {'age': 3,
+              'd1': {'42': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '43': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '44': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '45': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '46': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '47': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '48': {'file1_1_0.txt': None, 'file1_1_1.txt': None},
+                     '49': {'file1_1_0.txt': None, 'file1_1_1.txt': None}},
+              'd2': {'42': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '43': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '44': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '45': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '46': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '47': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '48': {'file1_2_0.txt': None, 'file1_2_1.txt': None},
+                     '49': {'file1_2_0.txt': None, 'file1_2_1.txt': None}},
+              'd3': {'42': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '43': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '44': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '45': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '46': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '47': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '48': {'file1_3_0.txt': None, 'file1_3_1.txt': None},
+                     '49': {'file1_3_0.txt': None, 'file1_3_1.txt': None}},
+              'd4': {'42': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '43': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '44': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '45': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '46': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '47': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '48': {'file1_4_0.txt': None, 'file1_4_1.txt': None},
+                     '49': {'file1_4_0.txt': None, 'file1_4_1.txt': None}}},
+       'c2': {'age': 1,
+              'd1': {'44': {'file2_1_0.txt': None, 'file2_1_1.txt': None},
+                     '45': {'file2_1_0.txt': None, 'file2_1_1.txt': None},
+                     '46': {'file2_1_0.txt': None, 'file2_1_1.txt': None},
+                     '47': {'file2_1_0.txt': None, 'file2_1_1.txt': None},
+                     '48': {'file2_1_0.txt': None, 'file2_1_1.txt': None},
+                     '49': {'file2_1_0.txt': None, 'file2_1_1.txt': None}},
+              'd2': {'44': {'file2_2_0.txt': None, 'file2_2_1.txt': None},
+                     '45': {'file2_2_0.txt': None, 'file2_2_1.txt': None},
+                     '46': {'file2_2_0.txt': None, 'file2_2_1.txt': None},
+                     '47': {'file2_2_0.txt': None, 'file2_2_1.txt': None},
+                     '48': {'file2_2_0.txt': None, 'file2_2_1.txt': None},
+                     '49': {'file2_2_0.txt': None, 'file2_2_1.txt': None}},
+              'd3': {'44': {'file2_3_0.txt': None, 'file2_3_1.txt': None},
+                     '45': {'file2_3_0.txt': None, 'file2_3_1.txt': None},
+                     '46': {'file2_3_0.txt': None, 'file2_3_1.txt': None},
+                     '47': {'file2_3_0.txt': None, 'file2_3_1.txt': None},
+                     '48': {'file2_3_0.txt': None, 'file2_3_1.txt': None},
+                     '49': {'file2_3_0.txt': None, 'file2_3_1.txt': None}},
+              'd4': {'44': {'file2_4_0.txt': None, 'file2_4_1.txt': None},
+                     '45': {'file2_4_0.txt': None, 'file2_4_1.txt': None},
+                     '46': {'file2_4_0.txt': None, 'file2_4_1.txt': None},
+                     '47': {'file2_4_0.txt': None, 'file2_4_1.txt': None},
+                     '48': {'file2_4_0.txt': None, 'file2_4_1.txt': None},
+                     '49': {'file2_4_0.txt': None, 'file2_4_1.txt': None}}},
+       'c3': {'age': 5,
+              'd1': {'40': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '41': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '42': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '43': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '44': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '45': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '46': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '47': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '48': {'file3_1_0.txt': None, 'file3_1_1.txt': None},
+                     '49': {'file3_1_0.txt': None, 'file3_1_1.txt': None}},
+              'd2': {'40': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '41': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '42': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '43': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '44': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '45': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '46': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '47': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '48': {'file3_2_0.txt': None, 'file3_2_1.txt': None},
+                     '49': {'file3_2_0.txt': None, 'file3_2_1.txt': None}},
+              'd3': {'40': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '41': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '42': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '43': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '44': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '45': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '46': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '47': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '48': {'file3_3_0.txt': None, 'file3_3_1.txt': None},
+                     '49': {'file3_3_0.txt': None, 'file3_3_1.txt': None}},
+              'd4': {'40': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '41': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '42': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '43': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '44': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '45': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '46': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '47': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '48': {'file3_4_0.txt': None, 'file3_4_1.txt': None},
+                     '49': {'file3_4_0.txt': None, 'file3_4_1.txt': None}}},
+       'c4': {'age': 10,
+              'd1': {'40': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '41': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '42': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '43': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '44': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '45': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '46': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '47': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '48': {'file4_1_0.txt': None, 'file4_1_1.txt': None},
+                     '49': {'file4_1_0.txt': None, 'file4_1_1.txt': None}},
+              'd2': {'40': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '41': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '42': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '43': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '44': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '45': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '46': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '47': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '48': {'file4_2_0.txt': None, 'file4_2_1.txt': None},
+                     '49': {'file4_2_0.txt': None, 'file4_2_1.txt': None}},
+              'd3': {'40': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '41': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '42': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '43': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '44': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '45': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '46': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '47': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '48': {'file4_3_0.txt': None, 'file4_3_1.txt': None},
+                     '49': {'file4_3_0.txt': None, 'file4_3_1.txt': None}},
+              'd4': {'40': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '41': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '42': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '43': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '44': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '45': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '46': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '47': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '48': {'file4_4_0.txt': None, 'file4_4_1.txt': None},
+                     '49': {'file4_4_0.txt': None, 'file4_4_1.txt': None}}},
+       'logfile.txt': None}}

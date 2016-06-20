@@ -18,8 +18,8 @@ How to run?
 Copy and chdir to the folder 06_19_project
 #python create_dir.py
 -This creates the necessary directory structure similar to the one described in the question, which serves as a test dir
-
-#delete_old_files.py
+#cd test_dir
+#python delete_old_files.py
 
 #cleanup.py
 -Removes the test_dir created by create_dir.py
