@@ -1,3 +1,5 @@
+# This program creates the test directory structure needed to test the project
+
 import os
 import shutil
 

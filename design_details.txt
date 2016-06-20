@@ -1,26 +1,25 @@
 Assumptions:
-1. there are 4 customers, 4 devices per customer, 3 files in every device which are timestamped.
-2. assuming current time is 45, no units
+1. There are 4 customers, 4 devices per customer, 3 files in every device which are timestamped.
+2. Assuming current time is 45, no units.
+3. For the sake of simplicity, assuming that customers named c1, c2, c3, c4 are there in the directory.
 
 Data structures:
-1. to store the key, value: hash tables/ dictionaries in python
-2. to traverse/walk: tree(os.walk uses tree in python)
+1. To store the key, value: hash tables/ dictionaries in python
+2. To traverse/walk: tree(os.walk uses tree in python)
 
-Hashtables are great for searching, especially when we have huge loads of data which might be scarcely populated. This will also work very well in distributed file searching, can be easily extended if the file are across servers and need to be searched in a distibuted fashion. The appropriate Data structure variation can be something like Distributed Hash Tables and some peer-peer abstraction like chord can be used to search for the files.
+Hashtables are great for searching, especially when we have huge loads of data which might be scarcely populated. This will also work very well in distributed file searching, can be easily extended if the file are across servers and need to be searched in a distributed manner. The appropriate data structure variation can be something like Distributed Hash Tables and some peer2peer abstraction like chord can be used to search for the files.
 
-Trees are a great way to search/traverse directory structres that are nested. They are natuarally recursive and fit the kind of thing we are trying to do-parse the filesystem structure.
+Trees are a great way to search/traverse directory structures that are nested. They are naturally recursive and fit the kind of thing we are trying to do--parse the filesystem structure.
 
-Basic idea:
-1.
 
 Time stamps on files:
-I have made a rather big assumption here that CURRENT_TIME is 45 and timestamp on the file is 41,42.......50.
+I have made, a rather big assumption here, that CURRENT_TIME is 45 and timestamp on the file is 41,42.......50.
 However, this would get translated to:
-1. mtime: the time the file contents were modified. I have a feeling ctime is too generic because we might not be interested in knowing if the metadata on the file changed. If we care only about when the contents of the file changed, then mtime seems more appropriate.
+1. mtime: the time the file contents were modified. I presume ctime is too generic because we might not be interested in knowing if the metadata on the file changed. If we care only more about when the contents of the file being modified, then mtime seems more appropriate.
 2. In this implementation, I am assuming the flows received by the user, which we prune and slice into small timestamped folders AND the machine where we run the delete_dir.py program is on same server. 
 However this is very tricky if we are running our delete_dir.py, let's say, in 
-San Francisco and the file directory folder is sitting on a machine in Boston. A typical distributed system can have a scenario something like this. to cover this, we need some kind of function with a data structure which synchronizes the 'times' across all peers. There are various time syncronization primitives we can use-network time protocol, or lamport time vectors(just read up now), or come up with our own simple naiive concept of time, where we consider two tuple of (geography,time) 
-Lot's of scope for better engineering, optimization WRT time primitives.
+San Francisco and the file directory folder is sitting on a machine in Boston. A typical distributed system can have a scenario something like this. to cover this, we need some kind of function with a data structure which synchronizes the 'times' across all peers. There are various time syncronization primitives we can use-network time protocol, or lamport time vectors(just read up now), or come up with our own bare-minimum concept of time, where we consider two tuple of (geography,time) 
+Lots of scope for better engineering, optimization WRT time primitives.
 Time related problems are hard to catch and debug.
 
 Also, for better math on time values of NOW, age and timestamp mtime of file, one easy way of not having to deal with year,date,time units is by using epoch(mtime), epoch(current_time) etc. Just an idea.
@@ -31,5 +30,5 @@ The bottle neck is in o(n^2) in the delete function.
 
 Enhancements:
 1. If going to the disk gets expensive with scale, we could use cache principles to achieve faster executions.
-2. if we implement it in a distributed way, we could keep the files structure and process on separate machines, extent principles for backup and gain some flexibility for restores, maybe make it a per customer feature.
-3. With more and more information on type of data and the scale, we can tune what we use to sort,search and retrieve/delete data.
+2. If we implement it in a distributed way, we could keep the filestructure and process on separate machines, extend principles for backup and gain some flexibility for restores, maybe make it a per-customer feature.
+3. With increased information on type of data and the scale, we can tune what we use to sort,search and retrieve/delete data.

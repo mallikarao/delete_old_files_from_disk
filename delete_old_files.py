@@ -1,9 +1,11 @@
+# This program deletes the files older than a matching-criterion 
+
 import datetime
 import shutil
 import os 
 from pprint import pprint
 
-#global variables
+# global variables
 NOW=45
 tree = {}
 

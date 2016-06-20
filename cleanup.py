@@ -1,3 +1,5 @@
+# This program removes and cleans up the test directory created to test this project
+
 import shutil
 
 mydir="./test_dir/"
